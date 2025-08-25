@@ -1,13 +1,15 @@
 source "https://rubygems.org"
 
+# GitHub Pages dependencies (uses safe list of plugins)
+gem "github-pages", group: :jekyll_plugins
+
 # Jekyll core
 gem "jekyll"
 
 # Theme (use minima as base, you can override with custom CSS/layouts)
-gem "minima", "~> 2.5"
+gem "minima"
 
-# GitHub Pages dependencies (uses safe list of plugins)
-gem "github-pages", group: :jekyll_plugins
+
 
 # Plugins
 gem "jekyll-seo-tag"
